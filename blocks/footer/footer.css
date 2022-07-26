@@ -1,0 +1,27 @@
+.footer {
+  /* margin: 0;
+  padding: 0 16 0 16px;
+  width: 90%;  */
+  /* чтобы горизонтального скролла не было даже на маленьких разрешениях */
+
+  /* display: flex;
+  flex-direction: column; */
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+
+  }
+}
