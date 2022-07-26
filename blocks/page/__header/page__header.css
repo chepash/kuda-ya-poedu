@@ -1,8 +1,7 @@
 /* микс для отступов БЭМ-блока header */
 .page__header {
-  margin-top: 49px;
-  /*
-  margin-bottom: 48px; */
+  margin-top: 49px; /*100% по пиксель перфекту вычеслил*/
+  margin-bottom: 88px; /*примерно*/
 }
 /*
 @media screen and (min-width: 768px) {

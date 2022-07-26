@@ -4,7 +4,7 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/page/__header/page__header.css); /* микс для отступов БЭМ-блока header */
+@import url(../blocks/page/__header/page__header.css); /* микс для отступов сверху и снизу БЭМ-блока header */
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__list-item/header__list-item.css);
@@ -15,15 +15,24 @@
 
 
   @import url(../blocks/intro/intro.css);
+  @import url(../blocks/content/__intro/content__intro.css); /* микс для отступа снизу БЭМ-блока intro */
+  @import url(../blocks/intro/__titles/intro__titles.css);
+  @import url(../blocks/intro/__title/intro__title.css);
+  @import url(../blocks/intro/__subtitle/intro__subtitle.css);
+  @import url(../blocks/intro/__image/intro__image.css);
 
 
   @import url(../blocks/places/places.css);
+  @import url(../blocks/content/__places/content__places.css); /* микс для отступа снизу БЭМ-блока places */
 
 
   @import url(../blocks/poeples/poeples.css);
 
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/page/__footer/page__footer.css); /* микс для отступа сверху от всего контента*/
+@import url(../blocks/footer/__title/footer__title.css);
+
 
 
  /* вертикальный скролл для отлавливания горизонтального скрола */
