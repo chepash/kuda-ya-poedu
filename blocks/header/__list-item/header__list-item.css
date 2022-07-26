@@ -2,3 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
+.header__list-item:last-of-type {
+  grid-column-start: -2;
+}
