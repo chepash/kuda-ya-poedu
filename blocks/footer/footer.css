@@ -1,13 +1,17 @@
 .footer {
-  /* margin: 0;
-  padding: 0 16 0 16px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fecda7;
+  max-width: 1280px;
+  /*
   width: 90%;  */
   /* чтобы горизонтального скролла не было даже на маленьких разрешениях */
 
   /* display: flex;
   flex-direction: column; */
 }
-
+/*
 @media screen and (min-width: 768px) {
   .footer {
 
@@ -24,4 +28,4 @@
   .footer {
 
   }
-}
+} */

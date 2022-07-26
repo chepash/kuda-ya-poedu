@@ -1,12 +1,14 @@
 .page {
-  /* background-color: #2A2C2F; */
+  background-color: #fff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   min-width: 320px;
+  /* не ограничиваем по МАКСимальной ширине page иначе заливка будет не на весь экран, хоть она здесь и так белая */
 
-  /* font-family: 'Inter', Arial, sans-serif;
-  color: #FFF; */
+  /* шрифт по умолчанию для всего сайта */
+  font-family: Arial, sans-serif, 'Helvetica Neue';
+  color: #000;
 
   display: flex;
   flex-direction: column;

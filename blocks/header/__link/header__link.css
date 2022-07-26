@@ -1,0 +1,9 @@
+.header__link {
+  margin: 0;
+  padding: 0;
+}
+
+.header__link:hover {
+  transition: opacity 0.2s ease;
+  opacity: 0.8;
+}
