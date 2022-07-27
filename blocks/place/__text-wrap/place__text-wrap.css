@@ -1,0 +1,14 @@
+.place__text-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 1023px) {
+    .place__text-wrap {
+        display: block;
+        order: 0;
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,19 @@
+.people__articles {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+}
+
+@media screen and (max-width: 1023px) {
+    .people__articles {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .people__articles {
+        padding-top: 50px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
