@@ -4,6 +4,7 @@
 @import url(../vendor/fonts/inter.css);
 
 @import url(..//blocks/header/header.css);
+@import url(..//blocks/page/__header/page__header.css); /* микс для верхнего отступа блока header */
 @import url(..//blocks/header/__items/header__items.css);
 @import url(..//blocks/header/__item/header__item.css);
 @import url(..//blocks/header/__item-link/header__item-link.css);
@@ -11,29 +12,34 @@
 @import url(..//blocks/menu-button/menu-button.css);
 @import url(..//blocks/menu-button/__label/menu-button__label.css);
 
-@import url(..//blocks/lead/lead.css);
-@import url(..//blocks/lead/__img/lead__img.css);
+@import url(..//blocks/content/content.css);
 
-@import url(..//blocks/title-wrap/title-wrap.css);
-@import url(..//blocks/title-wrap/__text/title-wrap__text.css);
-@import url(..//blocks/title-wrap/__label/title-wrap__label.css);
+    @import url(..//blocks/lead/lead.css);
+    @import url(..//blocks/lead/__img/lead__img.css);
 
-@import url(..//blocks/people/people.css);
-@import url(..//blocks/people/__articles/people__articles.css);
-@import url(..//blocks/people/__label/people__label.css);
-@import url(..//blocks/people/__text/people__text.css);
+    @import url(..//blocks/title-wrap/title-wrap.css);
+    @import url(..//blocks/title-wrap/__text/title-wrap__text.css);
+    @import url(..//blocks/title-wrap/__label/title-wrap__label.css);
+
+    @import url(..//blocks/places/places.css);
+    @import url(..//blocks/content/__places/content__places.css); /* микс для верхнего отступа блока places */
+
+      @import url(..//blocks/place/place.css);
+      @import url(..//blocks/place/__img/place__img.css);
+      @import url(..//blocks/place/__img/__img_forest/place__img_forest.css);
+      @import url(..//blocks/place/__img/__img_mountains/place__img_mountains.css);
+      @import url(..//blocks/place/__img/__img_black-sea/place__img_black-sea.css);
+      @import url(..//blocks/place/__text-wrap/place__text-wrap.css);
+      @import url(..//blocks/place/__title/place__title.css);
+      @import url(..//blocks/place/__paragraph-wrap/place__paragraph-wrap.css);
+      @import url(..//blocks/place/__paragraph/place__paragraph.css);
+
+  @import url(..//blocks/people/people.css);
+  @import url(..//blocks/content/__people/content__people.css); /* микс для верхнего и нижнего отступа блока people */
+  @import url(..//blocks/people/__articles/people__articles.css);
+  @import url(..//blocks/people/__label/people__label.css);
+  @import url(..//blocks/people/__text/people__text.css);
+
 
 @import url(..//blocks/footer/footer.css);
 @import url(..//blocks/footer/__label/footer__label.css);
-
-@import url(..//blocks/places/places.css);
-
-@import url(..//blocks/place/place.css);
-@import url(..//blocks/place/__img/place__img.css);
-@import url(..//blocks/place/__img/__img_forest/place__img_forest.css);
-@import url(..//blocks/place/__img/__img_mountains/place__img_mountains.css);
-@import url(..//blocks/place/__img/__img_black-sea/place__img_black-sea.css);
-@import url(..//blocks/place/__text-wrap/place__text-wrap.css);
-@import url(..//blocks/place/__title/place__title.css);
-@import url(..//blocks/place/__paragraph-wrap/place__paragraph-wrap.css);
-@import url(..//blocks/place/__paragraph/place__paragraph.css);

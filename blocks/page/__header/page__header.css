@@ -1,0 +1,17 @@
+/* микс для отступов блока header */
+.page__header {
+  margin-top: 49px;
+  margin-bottom: 88px;
+}
+@media screen and (max-width: 1023px) {
+  .page__header {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page__header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

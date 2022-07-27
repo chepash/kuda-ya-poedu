@@ -1,0 +1,10 @@
+/* микс для верхнего отступа блока places */
+.content__places {
+  margin-top: 130px;
+}
+
+@media screen and (max-width: 1023px) {
+  .content__places {
+      margin-top: 70px;
+  }
+}

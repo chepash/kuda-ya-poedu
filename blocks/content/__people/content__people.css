@@ -1,0 +1,13 @@
+/* микс для верхнего и нижнего отступа блока people */
+.content__people {
+  margin-top: 135px;
+  margin-bottom: 145px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .content__people {
+    margin-top: 110px;
+    margin-bottom: 110px;
+  }
+}
