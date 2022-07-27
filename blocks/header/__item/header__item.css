@@ -1,0 +1,10 @@
+.header__item {
+    padding-left: 36px;
+}
+.header__item:first-child {
+    padding-left: 0;
+}
+.header__item:last-child {
+    text-align: end;
+    padding-left: 0;
+}

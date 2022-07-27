@@ -1,0 +1,12 @@
+.people {
+    max-width: 1140px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 135px 0 145px;
+}
+
+@media screen and (max-width: 767px) {
+    .people {
+        padding: 110px 0 110px;
+    }
+}

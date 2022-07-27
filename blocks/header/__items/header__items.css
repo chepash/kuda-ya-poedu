@@ -1,0 +1,14 @@
+.header__items {
+    display: grid;
+    grid-template-columns: 0fr 0fr 1fr 4fr;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .header__items {
+        display: none;
+    }
+}
