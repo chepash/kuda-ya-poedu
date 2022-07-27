@@ -1,7 +1,7 @@
 /* микс для отступов блока header */
 .page__header {
   margin-top: 49px;
-  margin-bottom: 88px;
+  margin-bottom: 83px;
 }
 @media screen and (max-width: 1023px) {
   .page__header {

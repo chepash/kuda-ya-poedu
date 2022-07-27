@@ -1,11 +1,12 @@
 .place__paragraph {
-    max-width: 400px;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 135%;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 20px;
+    max-width: 380px;
+
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 160%;
 }
 .place__paragraph:first-child {
     padding-top: 0;

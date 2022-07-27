@@ -1,6 +1,6 @@
 .header__item-link {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-style:  normal;
     font-weight:  700;
@@ -9,6 +9,6 @@
     transition: all 0.8s ease;
 }
 .header__item-link:hover {
-    color: rgb(65, 56, 56);
+    color: #383841;
     text-shadow: -3px -3px 10px #fecda7;
 }
