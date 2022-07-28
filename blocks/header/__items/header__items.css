@@ -10,8 +10,10 @@
 @media screen and (max-width: 767px) {
     .header__items {
         display: flex;
-        position: relative;
         flex-direction: column;
         align-items: flex-end;
+        background-color: pink;
     }
-  }
+}
+
+

@@ -8,14 +8,14 @@
 }
 
 @media screen and (max-width: 767px) {
-  .header__checkbox:checked + .header__menu {
+  .header__checkbox:checked ~ .header__items {
     transition: transform 0.4s ease-out;
-    transform: translate(-100px, 0);
+    transform: translate(0px, 0);
   }
   
-  .header__checkbox:not(:checked) + .header__menu {
+  .header__checkbox:not(:checked) ~ .header__items {
     transition: transform 0.4s ease-out;
-    transform: translate(100px, 0);
+    transform: translate(200px, 0);
   }
 }
 

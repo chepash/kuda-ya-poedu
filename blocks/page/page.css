@@ -9,5 +9,5 @@
 
     position: relative;
     /* чтобы уезжающее вправо меню не создавало скрола горизонтального */
-    overflow: hidden; 
+    overflow-x: hidden;
 }
