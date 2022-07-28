@@ -8,6 +8,7 @@
   display: inline-block;
   cursor: pointer;
 
+  /* чтобы кнопка текст кнопки не выделялся при нажатии на неё */
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
@@ -20,10 +21,10 @@
   }
 }
 
-/* чтобы кнопка текст кнопки не выделялся при нажатии на неё
+/* чтобы кнопка текст кнопки не выделялся при нажатии на неё */
 .header__checkbox-label::selection {
   background: transparent;
-} */
+}
 
 .header__checkbox-label:hover {
   color: #383841;
