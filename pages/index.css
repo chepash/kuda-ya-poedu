@@ -12,9 +12,6 @@
 @import url(..//blocks/header/__item/header__item.css);
 @import url(..//blocks/header/__item-link/header__item-link.css);
 
-@import url(..//blocks/menu-button/menu-button.css);
-@import url(..//blocks/menu-button/__label/menu-button__label.css);
-
 @import url(..//blocks/content/content.css);
 
     @import url(..//blocks/intro/intro.css);

@@ -6,8 +6,4 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    position: relative;
-    /* чтобы уезжающее вправо меню не создавало скрола горизонтального */
-    overflow-x: hidden;
 }
