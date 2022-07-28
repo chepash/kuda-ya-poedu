@@ -1,4 +1,4 @@
-.lead__img {
+.intro__img {
     background-image: url(../../../images/intro-image.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .lead__img {
+    .intro__img {
         margin-right: 0;
         margin-top: 40px;
         height: 50vw;
