@@ -15,6 +15,11 @@
   }
 }
 
+/* чтобы кнопка текст кнопки не выделялся при нажатии на неё */
+.header__checkbox-label::selection {
+  background: transparent;
+}
+
 .header__checkbox-label:hover {
   color: #383841;
   text-shadow: -3px -3px 10px #fecda7;
