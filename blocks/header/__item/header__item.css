@@ -13,7 +13,4 @@
     .header__item {
         padding-right: 25px;
     }
-    .header__item:first-child {
-        padding-top: 25px;
-    }
 }
