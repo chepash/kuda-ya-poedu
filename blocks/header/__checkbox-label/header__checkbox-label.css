@@ -7,6 +7,11 @@
   position: relative;
   display: inline-block;
   cursor: pointer;
+
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -15,10 +20,10 @@
   }
 }
 
-/* чтобы кнопка текст кнопки не выделялся при нажатии на неё */
+/* чтобы кнопка текст кнопки не выделялся при нажатии на неё
 .header__checkbox-label::selection {
   background: transparent;
-}
+} */
 
 .header__checkbox-label:hover {
   color: #383841;
