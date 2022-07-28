@@ -9,9 +9,9 @@
   .header__menu {
       display: block;
       position: absolute;
-      top: 40px;
-      right: -200px;
-      background-color: pink;
+      top: 70px;
+      right: -100px;
+      background-color: yellowgreen;
   }
 }
 
