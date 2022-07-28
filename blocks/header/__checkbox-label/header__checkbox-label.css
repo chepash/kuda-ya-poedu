@@ -14,3 +14,9 @@
       display: none;
   }
 }
+
+.header__checkbox-label:hover {
+  color: #383841;
+  text-shadow: -3px -3px 10px #fecda7;
+}
+
