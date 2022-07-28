@@ -15,7 +15,7 @@
   
   .header__checkbox:not(:checked) ~ .header__items {
     transition: transform 0.4s ease-out;
-    transform: translate(200px, 0);
+    transform: translate(251px, 0);
   }
 }
 

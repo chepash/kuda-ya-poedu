@@ -8,3 +8,12 @@
     text-align: end;
     padding-left: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .header__item {
+        padding-right: 25px;
+    }
+    .header__item:first-child {
+        padding-top: 25px;
+    }
+}
