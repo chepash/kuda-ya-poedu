@@ -9,10 +9,18 @@
 </head>
 <body class="page">
     <header class="header page__header">
-        <button class="menu-button">
+
+        <!-- <button class="menu-button">
             <span class="menu-button__label">открыть меню</span>
-        </button>
-        <nav class="header__nav">
+        </button> -->
+
+
+        
+        <label class="header__checkbox-label" for="fake-button">&#9776;</label> <!-- кнопка 3 полоски -->
+        <input class="header__checkbox" type="checkbox" name="fake-button" id="fake-button">
+        <!-- обязательно поставить непосредственно перед nav -->
+
+        <nav class="header__menu">
             <ul class="header__items">
                 <li class="header__item">
                     <a href="#" class="header__item-link">Мечты</a>

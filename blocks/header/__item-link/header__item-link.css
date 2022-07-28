@@ -12,3 +12,10 @@
     color: #383841;
     text-shadow: -3px -3px 10px #fecda7;
 }
+
+@media screen and (max-width: 767px) {
+    .header__item-link {
+        font-size: 25px;
+        line-height: 170%;
+    }
+}

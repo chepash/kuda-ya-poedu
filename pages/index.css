@@ -5,6 +5,9 @@
 
 @import url(..//blocks/header/header.css);
 @import url(..//blocks/page/__header/page__header.css); /* микс для верхнего отступа блока header */
+@import url(..//blocks/header/__checkbox-label/header__checkbox-label.css);
+@import url(..//blocks/header/__checkbox/header__checkbox.css);
+@import url(..//blocks/header/__menu/header__menu.css);
 @import url(..//blocks/header/__items/header__items.css);
 @import url(..//blocks/header/__item/header__item.css);
 @import url(..//blocks/header/__item-link/header__item-link.css);
