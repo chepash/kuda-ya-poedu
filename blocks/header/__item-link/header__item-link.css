@@ -19,8 +19,6 @@
 }
 .header__item-link:hover {
     color: #383841;
-    text-shadow: -3px -3px 10px #fecda7;
-    
     transition: opacity 0.2s ease;
     opacity: 0.8;
 }
