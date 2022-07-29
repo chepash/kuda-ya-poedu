@@ -18,6 +18,5 @@
     .intro {
         grid-template-columns: 1fr;
         height: fit-content;
-        padding-top: 50px;
     }
 }
