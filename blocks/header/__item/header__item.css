@@ -12,5 +12,14 @@
 @media screen and (max-width: 767px) {
     .header__item {
         padding-right: 25px;
+        padding-left: 20px;
+    }
+
+    .header__item:last-child {
+        padding-top: 15px;
+        /* интересный момент, если не задать отступ слева,
+        то у last-child останется отступ 0px.
+        Хотя козалось бы, что общее правило для header__item должно отступ всем элементам задать. */
+        padding-left: 20px; 
     }
 }

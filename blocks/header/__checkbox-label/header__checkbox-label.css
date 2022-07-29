@@ -1,12 +1,13 @@
 .header__checkbox-label {
-  padding: 0;
+  padding: 0 3% 0 0;
   margin: 0;
   font-size: 40px;
   font-weight: 700;
   line-height: 100%;
   position: relative;
-  display: inline-block;
   cursor: pointer;
+
+  display: none;
 
   /* чтобы текст кнопки не выделялся при нажатии на неё */
   -webkit-touch-callout:none;
@@ -18,9 +19,9 @@
   -webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .header__checkbox-label {
-      display: none;
+    display: inline-block;
   }
 }
 
