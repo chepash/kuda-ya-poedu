@@ -7,3 +7,9 @@
     font-weight: 700;
     line-height: 120%;
 }
+
+@media screen and (max-width: 1023px) {
+    .title-wrap__text {
+        font-size: 30px;
+    }
+}

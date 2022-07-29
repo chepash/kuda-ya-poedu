@@ -7,3 +7,9 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1023px) {
+    .title-wrap__label {
+        font-size: 20px;
+    }
+}
