@@ -1,3 +1,16 @@
 .place__img_black-sea {
-    background-image: url(../../../../images/places-black-sea.jpeg);
+    background-image: url(../../../../images/places-black-sea.jpg);
+}
+
+@media screen and (max-width: 768px) {
+    .place__img_black-sea {
+    background-image: url(../../../../images/places-black-sea-768.jpg);
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .place__img_black-sea {
+    background-image: url(../../../../images/places-black-sea-350.jpg);
+    }
 }

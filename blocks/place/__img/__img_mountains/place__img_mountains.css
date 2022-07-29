@@ -1,3 +1,16 @@
 .place__img_mountains {
-    background-image: url(../../../../images/places-mountains.jpeg);
+    background-image: url(../../../../images/places-mountains.jpg);
+}
+
+@media screen and (max-width: 768px) {
+    .place__img_mountains  {
+    background-image: url(../../../../images/places-mountains-768.jpg);
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .place__img_mountains  {
+    background-image: url(../../../../images/places-mountains-350.jpg);
+    }
 }

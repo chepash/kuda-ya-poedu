@@ -1,5 +1,5 @@
 .intro__img {
-    background-image: url(../../../images/intro-image.jpeg);
+    background-image: url(../../../images/intro-image-350.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 355px;
@@ -10,9 +10,23 @@
 
 @media screen and (max-width: 1023px) {
     .intro__img {
+        background-image: url(../../../images/intro-image.jpg);
         margin-right: 0;
         margin-top: 40px;
         height: 50vw;
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro__img {
+    background-image: url(../../../images/intro-image-768.jpg);
+    }
+}
+
+
+@media screen and (max-width: 350px) {
+    .intro__img {
+    background-image: url(../../../images/intro-image-350.jpg);
     }
 }
