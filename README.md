@@ -8,7 +8,7 @@
 
 **Introduction**
 
-* Collaboration for the team #13 "Devil's Dozen" ☠ contest.
+* An single-page web design project created collaboratively in three days, showcasing adaptive and responsive design techniques. Developed specifically for a small contest.
 * [Link to GitHub Pages](https://chepash.github.io/kuda-ya-poedu/)
 
 **Technologies Used**
