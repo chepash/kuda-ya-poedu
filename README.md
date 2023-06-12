@@ -1,30 +1,28 @@
-# Проект: Куда я поеду
+# Project: Where Will I Go
 
-### Обзор
-* Интро
-* Какие технологии используются
-* Оптимизация
-* Авторы
+### Overview
+* Introduction
+* Technologies Used
+* Optimization
+* Authors
 
+**Introduction**
 
-**Интро**
+* Collaboration for the team #13 "Devil's Dozen" ☠ contest.
+* [Link to GitHub Pages](https://chepash.github.io/kuda-ya-poedu/)
 
-* Совместная работа на конкурс команды #13 "Чертова дюжина" ☠
-* [Ссылка на GitHub Pages](https://chepash.github.io/kuda-ya-poedu/)
+**Technologies Used**
 
+* CSS file structure using the Nested methodology of BEM (Block Element Modifier).
+* Visual effects when interacting with elements.
+* CSS Grid.
+* CSS Flexbox.
 
-**Какие технологии используются**
+**Optimization**
 
-* использование файловой структуры CSS Nested по методолгии БЭМ;
-* визуальные эфекты при работе с интерактивными элеменетами;
-* CSS grid;
-* CSS flex.
+* Images are loaded with optimal resolutions on different devices.
 
-**Оптимизация**
+**Authors**
 
-* На разных устройствах подгружаются картинки с оптимальным разрешением.
-
-**Авторы**
-
-* Мелихов Сергей
-* Черданцев Павел
+* Sergey Melikhov
+* Pavel Cherdantsev
