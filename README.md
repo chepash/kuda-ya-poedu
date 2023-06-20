@@ -26,3 +26,7 @@
 
 * Sergey Melikhov
 * Pavel Cherdantsev
+
+
+## Screenshots:
+<a href="https://postimg.cc/s1Vm7zWL" target="_blank"><img src="https://i.postimg.cc/s1Vm7zWL/kuda-ya-poedu-1.png" alt="kuda-ya-poedu-1"/></a> <a href="https://postimg.cc/1nSHWhjf" target="_blank"><img src="https://i.postimg.cc/1nSHWhjf/kuda-ya-poedu-2.png" alt="kuda-ya-poedu-2"/></a><br/><br/>
